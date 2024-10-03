@@ -1,0 +1,164 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  scroll-behavior: smooth; 
+  position: relative; 
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 20px;
+  position: relative; 
+}
+
+header::after {
+  content: ''; 
+  position: relative; 
+  display: block; 
+  width: 100%; 
+  border-bottom: 1.5px solid #aeaeae6f; 
+  top: -10px; 
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px; 
+  font-size: 24px; 
+}
+
+.logo img {
+  height: 50px; 
+  width: auto;
+}
+
+.header-title {
+  position: absolute;
+  left: 10%; 
+  transform: translateX(-50%); 
+}
+
+.header-title h1 {
+  margin: 0;
+  font-size: 20px; 
+}
+
+h2 {
+  color: #1a5bbc;
+  text-align: center; 
+  margin-top: 0; 
+  margin-bottom: 20px; 
+}
+
+
+.header-title {
+  position: absolute;
+  left: 10%; 
+  transform: translateX(-50%); 
+}
+
+nav {
+  margin-bottom: 12px; 
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 5px;
+  width: 150px;
+  text-align: center;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+nav ul li a {
+  color: #0f0f0f; 
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 10px 15px; 
+}
+
+nav ul li a:hover {
+  color: #2835be; 
+  font-weight: bold; 
+  padding-right: 20px; 
+  text-decoration: underline;
+}
+
+main {
+  padding: 40px; 
+  position: relative;
+  background-color: #ffffff; 
+  border-radius: 10px; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  position: relative;
+}
+
+.header-title {
+  position: absolute;
+  left: 10%; 
+  transform: translateX(-50%); 
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  min-height: 200px; 
+}
+
+.opening-hours .card {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  min-width: 1100px;
+}
+
+.opening-hours .card h3 {
+  margin-bottom: 10px;
+}
+
+.opening-hours .card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.opening-hours .card ul li {
+  margin-bottom: 5px;
+}
+
+
+
+footer {
+  background-color: #1a5bbc;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed; 
+  bottom: 0; 
+  width: 100%;
+}

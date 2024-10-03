@@ -1,0 +1,19 @@
+/* Slideshow Styles */
+.slideshow {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.slides {
+  width: 100%;
+  opacity: 0;
+  visibility: hidden; /* Initially hide the slides */
+  transition: opacity 0.5s ease, visibility 0.5s ease; /* Add transition for opacity and visibility */
+}
+
+.show {
+  opacity: 1;
+  visibility: visible; /* Show the current slide */
+}

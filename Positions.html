@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Positions | Hot Beans</title>
+    <link rel="stylesheet" href="PositionsStyles.css">
+    <script src="PositionsScript.js" defer></script> 
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <!-- <div class="logo">
+                <img src="logo.jpg" alt="Hot Beans Logo">
+            </div> -->
+            <div class="header-title">
+                <h1>Hot Beans</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="team.html">Meet the Team</a></li>
+                    <li><a href="positions.html">Positions</a></li>
+                    <li><a href="applications.html">Applications</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Available Positions</h2>
+            <div class="positions">
+                <div class="position">
+                    <h3>Junior Web Developer</h3>
+                    <p>Seeking a Junior Web Developer to join our dynamic team. Ideal candidate will have a passion for coding, proficiency in HTML, CSS, and JavaScript, and a willingness to learn and grow. This is an excellent opportunity to kickstart your career in web development with hands-on experience and mentorship.</p>
+                    <a href="#" class="apply-now">Apply Now</a>
+                </div>
+                <div class="position">
+                    <h3>Graphics Designer</h3>
+                    <p>Looking for a creative Graphics Designer to join our innovative team. Candidate should have a strong portfolio showcasing design skills in Adobe Creative Suite or similar tools. Collaborate with our team to produce visually stunning content across various platforms and mediums. Come shape the visual identity of our projects!</p>
+                    <a href="#" class="apply-now">Apply Now</a>
+                </div>                
+                
+            </div>
+        </div>
+    </main>
+
+<footer>
+    <p>&copy; 2024 Hot Beans. All rights reserved.</p>
+</footer>
+
+<div id="job-application-form-container" class="job-application-form" style="height:88vh">
+    <button id="close-form-button" class="close-form-button">Close</button>
+    <h2>Job Application Form</h2>
+    <form id="job-application-form">
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="resume">Resume (PDF or Word):</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+        
+        <label for="message">Message (optional):</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+    </form>
+
+    <div class = "form_button_container">
+        <button type="submit">Submit Application</button>
+    
+        <button class="printbtn" onclick="window.print();return false;">Print this Template</button>
+    
+        <a onclick="window.location.href = 'mailto:hotbeans@gmail.com?';"><button class = "emailbtn" >Email Hot Beans</button></a>
+    </div>
+    
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Hot Beans. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

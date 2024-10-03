@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+  position: relative; /* Set body position to relative for footer positioning */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Underline */
+header::after {
+  content: ''; /* Add empty content */
+  position: relative; /* Position the underline relatively */
+  display: block; /* Ensure the pseudo-element is displayed as a block element */
+  width: 100%; /* Make the underline span the full width of the header */
+  border-bottom: 1.5px solid #aeaeae6f; /* Add a 2px solid border */
+  top: -10px; /* Move the underline up by 10 pixels */
+}
+
+/* Team Page Styles */
+h1 {
+  text-align: center;
+  margin-bottom: 10px; /* Reduce margin bottom */
+  font-size: 24px; /* Adjust font size */
+  
+}
+
+h2 {
+  text-align: center;
+  color: #1a5bbc;
+  margin:auto 10px; /* Reduce margin bottom */
+  padding-bottom: 20px;
+}
+
+.header-title {
+  flex-grow: 1; /* Allow the title to take up remaining space */
+  text-align: center; /* Center align the title */
+}
+
+.header-title h1 {
+  margin: 0;
+  font-size: 20px; /* Adjust title font size */
+  
+}
+
+.header-title h2 {
+  text-align: center; /* Center align the title */
+  color: #1a5bbc;
+
+
+
+}
+
+.header-title {
+  margin-bottom: 12px; /* Adjust the margin-bottom value as needed */
+  
+}
+
+
+
+nav {
+  margin-bottom: 12px; /* Adjust the margin-bottom value as needed */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px; /* Reduce margin-right */
+}
+
+nav ul li a {
+  color: #0f0f0f; /* Dark text color */
+  text-decoration: none;
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+  padding: 10px 15px; /* Adjusted padding for the navigation links */
+}
+
+nav ul li a:hover {
+  color: #2835be; /* Dark blue color on hover */
+  font-weight: bold; /* Add font weight to the navigation links on hover */
+  text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust the column width */
+  gap: 20px; /* Adjust the gap between team members */
+  justify-content: center; /* Center align the grid */
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px; /* Add some bottom margin */
+}
+
+.team-member h3 {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.team-member p {
+  margin: 0;
+  font-size: 16px;
+}
+
+
+
+/* Footer Styles */
+footer {
+  background-color: #1a5bbc;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed; /* Fixed positioning for the footer */
+  bottom: 0; /* Align footer to the bottom of the viewport */
+  width: 100%; /* Make the footer span the full width of the viewport */
+}
